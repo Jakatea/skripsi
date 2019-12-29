@@ -1,0 +1,105 @@
+.pointer,
+.nav, .pagination, .carousel, .panel-title a {
+  cursor: pointer;
+}
+
+.span-right{
+  padding-left:10px;
+}
+.span-left{
+  padding-right:10px;
+}
+.logo-image{
+  width:64px;
+  height:64px;
+  margin-top:-20px;
+}
+.login-footer{
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  color:#8a0000;
+}
+.login-form{
+  top: 20vh;
+  background-color: #00751a;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.login-image{
+  display: block;
+}
+.login-image>.glyphicon{
+  width:80px;
+  line-height: 80px;
+  font-size: 64px;
+  background-color: #c7ecce;
+  border-radius: 4px;
+  color: #004509;
+}
+.login-forget{
+  color:#94f69d;
+  cursor:pointer;
+}
+.login-forget:hover{
+  color: white;
+  background-color: #005e00;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border:1px solid #005e00;
+  border-radius:5px;
+  box-shadow: 0 0 4px #ffffff;
+}
+.navbar-green {
+    background-color: #00751a;
+    border-color: #035715;
+}
+.navbar-green .navbar-nav > .open > a, .navbar-green .navbar-nav > .open > a:focus, .navbar-green .navbar-nav > .open > a:hover {
+    color: #ffffff;
+    background-color: #005c25;
+}
+.navbar-green .navbar-nav > li > a {
+    color: #fafafa;
+}
+.navbar-green .navbar-nav > li > a:hover {
+    color: white;
+    background-color: #003e13;
+}
+.separator-5{
+  height:5px;
+  width:100%;
+  display: block;
+  clear: both;
+}
+.separator-20{
+  height:20px;
+  width:100%;
+  display: block;
+  clear: both;
+}
+.separator-40{
+  height:40px;
+  width:100%;
+  display: block;
+  clear: both;
+}
+.borderless td, .borderless th{
+  border: none;
+}
+
+.absolute-left{
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+    z-index:9999;
+}
+.absolute-right{
+    position: absolute;
+    display: block;
+    top:0;
+    right:0;
+    z-index:9999;
+}
